@@ -1,3 +1,32 @@
 $primary: #495E63;
+$secondary: #A29998;
+$success: #E39161;
+$info: #92D1C8;
+
+$font-family: 'Roboto', sans-serif;
+
+.logo-nav{
+    height: 1.7em;
+}
+
+.img-header-bg{
+    width: 17em;
+}
+
+.img-logo-header{
+    width: 15em;
+}
+
+.header-center-el{
+    padding-bottom: 8em;
+    width: 22em;
+}
+
+.img-discover{
+    width: 22em;
+    height: 22em;
+}
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

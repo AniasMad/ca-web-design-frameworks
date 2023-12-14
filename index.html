@@ -8,45 +8,55 @@
     <title>Document</title>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+    <!-- Navbar -->
+    <nav class="navbar shadow navbar-expand-lg bg-primary">
+        <div class="container-fluid mx-2">
+            <a class="navbar-brand" href="/index.html"><img src="images/logo-sm.png" class="logo-nav" alt="logo"></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </div>
         </div>
-      </nav>
-      <div class="bg-primary">
-        <p>welcome!</p>
-      </div>
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="bg-primary d-flex justify-content-between">
+            <img src="images/header-img1.png" alt="headerimg" class="align-self-start mt-auto img-header-bg">
+            <div class="d-flex align-items-center flex-column pt-4">
+                <img src="images/logo.png" alt="logo" class="img-logo-header">
+                <div class="pt-4 d-flex justify-content-center header-center-el">
+                    <input class="form-control me-2" type="search" placeholder="Enter Delivery Address" aria-label="Search">
+                    <button type="button" class="btn btn-success text-light">Search</button>
+                </div>
+            </div>
+            <img src="images/header-img2.png" alt="headerimg" class="mb-auto align-self-end img-header-bg">
+        </div>
+    </header>
+
+    <!-- Body -->
+    <body>
+        <div class="container-fluid my-5 ml-5 mr-5">
+            <div class="d-flex justify-content-center ml-5 mr-5">
+                <h1 class="text-primary fw-bold mt-5">Discover Greenville</h1>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row gy-5">
+                <div class="col-sm-12 col-md-6 col-lg-4 p-3 img-discover">
+                    <img src="images/gv-img1.jpg" alt="img1" class="img-discover">
+                    <h2 class="text-primary fw-semibold">Fresh Food</h2>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 p-3 img-discover">
+                    <img src="images/gv-img2.jpg" alt="img2" class="img-discover">
+                    <h2 class="text-primary fw-semibold">Fresh Food</h2>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 p-3 img-discover">
+                    <img src="images/gv-img3.jpg" alt="img3" class="img-discover">
+                    <h2 class="text-primary fw-semibold">Fresh Food</h2>
+                </div>
+            </div>
+        </div>
+    </body>
+
 </body>
 </html>
