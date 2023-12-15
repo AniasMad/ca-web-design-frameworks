@@ -27,6 +27,68 @@ $font-family: 'Roboto', sans-serif;
     height: 22em;
 }
 
+p{
+    font-size: 18px;
+}
+
+.shadow-under{
+    box-shadow: 0 4px 2px -2px rgb(0, 0, 0);
+}
+
+.tiny-text{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.offer-1{
+    height: 16em;
+}
+
+.offer-2{
+    height: 23em;
+}
+
+.signup{
+    margin-right: 1em;
+}
+
+.instatext{
+    margin-left: 2em;
+}
+
+.of2-img{
+    height: 18em;
+    padding-right: 10em;
+}
+
+.offer-main1{
+    margin-bottom: 2em;
+    height: fit-content;
+}
+
+.offer-half-1{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 5em 100%);
+    margin-left: -5vw;
+}
+
+.offer-half-2{
+    margin-right: -13vw;
+}   
+.offer-num{
+    font-size: 12em;
+    font-weight: 700;
+    padding-right: 0.7em;
+}
+
+.offer-img1{
+    height: 15em;
+}
+
+.locations{
+    height: 30em;
+    width: 30em;
+}
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
