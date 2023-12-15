@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Product Info</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar shadow-sm navbar-expand-lg fixed-top bg-primary">
+        <div class="container-fluid mx-2 d-flex">
+            <a class="navbar-brand" href="/index.html"><img src="images/logo-sm.png" class="logo-nav" alt="logo"></a>
+            <div class="d-flex justify-content-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2.2em" height="2.2em" fill="white" class="bi bi-cart2 mx-3" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product info -->
+    <div class="container-fluid my-5 ml-5 mr-5">
+        <div class="d-flex justify-content-center ml-5 mr-5">
+            <h1 class="text-primary fw-bold mt-5">Product Info</h1>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row mx-5">
+                <div class="col-6 product-comp">
+                    <img src="images/product-info.png" class="img-fluid rounded product-comp" alt="">
+                </div>
+                <div class="col-6 product-comp">
+                    <div class="rounded bg-primary product-comp d-flex flex-column">
+                        <div class="product-text text-light">
+                            <h1 class="display-2 fw-bold">The Vegan Bombay</h1>
+                            <p>Sweet potato, Green lentil & spinach masala, pickled beetroot, shredded carrot, crispy onions & a mintaioli on sourdough</p>
+                            <h2 class="display-4 fw-semibold">€8.50</h2>
+                            <h3 class="mt-3">Special instructions</h3>
+                            <textarea name="" id="" cols="55" rows="5" placeholder="Add a note here..." class="mb-3"></textarea>
+                            <a href="menu-page.html"><button type="button" class="btn btn-success px-5 py-0 text-light"><h4 class="fw-bold">Add to Cart</h4></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Frequently Bought Together -->
+    <div class="container-fluid my-5 ml-5 mr-5">
+        <div class="d-flex justify-content-center ml-5 mr-5">
+            <h1 class="text-primary fw-bold mt-2">Frequently Bought Together</h1>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                <a href="" class="text-decoration-none">
+                    <div class="card mb-3 mx-4" style="width: 540px;">
+                        <div class="row g-0">
+                        <div class="col-4">
+                            <img src="images/vegan-bombay.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                            <div class="col-8">
+                                <div class="card-body bg-primary rounded-end h-100 text-light">
+                                    <h3 class="card-title fw-semibold mt-2">The Vegan Bombay</h3>
+                                    <p class="card-text">Sweet potato, pickles, crispy onions, pickled beetroot</p>
+                                    <h3 class="card-text fw-semibold">€8.50</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="text-decoration-none">
+                    <div class="card mb-3 mx-4" style="width: 540px;">
+                        <div class="row g-0">
+                        <div class="col-4">
+                            <img src="images/asian-pulled-pork.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                            <div class="col-8">
+                                <div class="card-body bg-primary rounded-end h-100 text-light">
+                                    <h3 class="card-title fw-semibold mt-2">The Asian Pulled Pork</h3>
+                                    <p class="card-text">Slow cooked pulled pork, spicy Asian slaw, chillies</p>
+                                    <h3 class="card-text fw-semibold">€9.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-margin">
+        <div class="navbar shadow-sm navbar-expand-lg bg-primary justify-content-center align-items-center pt-4 mt-5">
+            <a href="#" class="text-light fw-semibold link-underline link-underline-opacity-0 px-4"><p>About us</p></a>
+            <a href="#" class="text-light fw-semibold link-underline link-underline-opacity-0 px-4"><p>Jobs</p></a>
+            <a href="#" class="text-light fw-semibold link-underline link-underline-opacity-0 px-4"><p>Privacy Statement</p></a>
+            <a href="#" class="text-light fw-semibold link-underline link-underline-opacity-0 px-4"><p>Terms of Service</p></a>
+            <a href="#" class="text-light fw-semibold link-underline link-underline-opacity-0 px-4"><p>Contact us</p></a>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-primary justify-content-center align-items-center text-light text-center">
+        <img src="images/logo.png" class="mx-auto d-block pt-5 pb-4 img-logo-header" alt="">
+        <p class="pb-5 mb-0 tiny-text">© Greenville 2023</p>
+    </div>
+</body>
+</html>

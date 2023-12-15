@@ -84,6 +84,32 @@ p {
   width: 30em;
 }
 
+.menu-logo {
+  height: 10em;
+}
+
+.categories-img {
+  width: 10em;
+  height: 5em;
+}
+
+.categories-img-container {
+  flex: 0 0 calc(20% - 20px);
+  margin-bottom: 10px;
+}
+
+.footer-margin {
+  margin-top: 7em;
+}
+
+.product-comp {
+  height: 45.8em;
+}
+
+.product-text {
+  margin: 2em;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
